@@ -40,6 +40,14 @@ main {
 
 /* por ordem de aparição no html, vamos adicionar o estilo para div do perfil-container */
 
+#perfil-container {
+    align-items: center;
+    display: flex;
+    height: 560px;
+    justify-content: space-around;
+    width: 70%;
+}
+
 
 h1 {
     font-family: 'Playfair Display', serif;
