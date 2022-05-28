@@ -163,8 +163,8 @@ footer div a:hover {
 } 
 
 #botao-topo {
-    background: none;
-    border: none;
+    background: black;
+    border: black;
     bottom: 20px; 
     cursor: pointer;
     display: none;
