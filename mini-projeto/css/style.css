@@ -48,6 +48,13 @@ main {
     width: 70%;
 }
 
+.imagem {
+    margin-left: 30px;
+    width: 50%;
+}
+
+
+
 
 h1 {
     font-family: 'Playfair Display', serif;
@@ -73,9 +80,9 @@ h2 {
     margin: 24px 0 ;
 }
 
-.imagem img {
+/* .imagem img {
     width: 100%;
-}
+} */
 
 /* FOOTER */
 footer {
