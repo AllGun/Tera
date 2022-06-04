@@ -1,7 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Mochiy+Pop+P+One&display=swap');
 
 * {
-    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* <header> */
+header {
+    width: 300px;
+    margin: 0 550px;
+}
+
+header img {
+    float: left;
+}
+
+header h1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
 }
 
 img {
