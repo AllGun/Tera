@@ -29,3 +29,16 @@ img {
     width: 70px;
     height: auto;
 }
+
+nav {
+    width: 300px;
+    margin: 0 550px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 20px;
+    color: #000;
+    text-decoration: none;
+}
