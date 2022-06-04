@@ -45,18 +45,27 @@ nav a {
 
 /* <main> */
 main {
-    width: 750px;
-    margin: 40px 370px;
+  width: 750px;
+  margin: 40px 370px;
 }
 
 section {
-    width: 500px;
-    height: auto;
-    margin: 40px 100px;
-    background-color: #f6f6f9;
-    border-radius: 20px;
+  width: 500px;
+  height: auto;
+  margin: 40px 100px;
+  background-color: #f6f6f9;
+  border-radius: 20px;
 }
 
 section h2 {
-    font-size: 19px;
+  font-size: 19px;
+}
+
+#inputNovaTarefa {
+  border: 1px solid #0ccbde;
+  border-radius: 5px;
+  font-family: "Lato";
+  padding: 0px 10px;
+  height: 40px;
+  width: 380px;
 }
