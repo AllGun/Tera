@@ -69,3 +69,19 @@ section h2 {
   height: 40px;
   width: 380px;
 }
+
+#btnNovaTarefa {
+  background-color: #0ccbde;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-family: "Lato";
+  margin: 0px 25px;
+  padding: 0px 10px;
+  height: 40px;
+  width: 40px;
+}
+
+#btnNovaTarefa:hover {
+  transform: scale(1.1);
+}
