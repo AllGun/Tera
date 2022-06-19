@@ -41,4 +41,32 @@ console.log(`Idade: ${Idade}`);
 var number1 = 5;
 var number2 = 6;
 var total = number1 + number2;
- console.log(`${number1} + ${number2} = ${total}`);
+console.log(`${number1} + ${number2} = ${total}`);
+
+
+/*
+Operadores de comparação 
+    comparam dois valores e retornam um valor booleano. 
+        "true" (verdadeira)  ou "false" (falsa).
+ */
+var b;
+
+// false
+b = 8 > 8;
+console.log(b);
+
+// true
+b = 8 >= 8;
+console.log(b);
+
+// false
+b = 8 < 8;
+console.log(b);
+
+// true
+b = 7 < 13;
+console.log(b);
+
+// true
+b = 10 <= 15;
+console.log(b);
