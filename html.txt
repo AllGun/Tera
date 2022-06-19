@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    </head>
+    <body>
+        <header>
+        </header>
+
+        <article>
+            <ul>
+                <li>Lua</li>
+                <li>Estrela</li>
+                <li>Sol</li>
+                <li>Planetas</li>
+            </ul>
+
+            <ol>
+                <li>Primeiro</li>
+                <li>Segundo</li>
+                <li>Terceiro</li>
+                <li>Quarto</li>
+                <li>Quinto</li>
+
+        </article>
+        <footer>
+        </footer>
+
+    </body>
+</html>
