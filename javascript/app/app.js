@@ -21,6 +21,8 @@ Tipos de Dados
 var nome = "Alfredo";
 var sobrenome = "Gutemberg";
 var idade = 36;
+console.log(`Nome: ${nome}`);
+console.log(`Idade: ${idade}`);
 
 /*
 Sensibilidade à caracteres maiúsculos
@@ -30,14 +32,13 @@ Sensibilidade à caracteres maiúsculos
 var Nome = "Eva Cristina";
 var Sobrenome = "da Silva";
 var Idade = 26;
-
-
-
-
-console.log(`Nome: ${nome}`);
-console.log(`Idade: ${idade}`);
-
 console.log(`Nome: ${Nome}`);
 console.log(`Idade: ${Idade}`);
 
-console.log(Idade + idade);
+/*
+É possível realizar operações matemáticas com variáveis que contém números.
+*/
+var number1 = 5;
+var number2 = 6;
+var total = number1 + number2;
+ console.log(`${number1} + ${number2} = ${total}`);
