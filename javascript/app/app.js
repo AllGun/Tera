@@ -71,12 +71,58 @@ console.log(b);
 b = 10 <= 15;
 console.log(b);
 
-console.log(7 === 7);
-console.log(9 == 9);
-console.log(3 === "3");
+//== "comparação simples" O JavaScript compara apenas o valor.
 console.log(2 == "2");
+console.log(9 == 9);
+
+//=== "comparação estrita" O JavaScript compara ambos: O tipo (se é número, string, etc.) e o valor.
+console.log(3 === "3");
+console.log(7 === 7);
 
 console.log(5 !== 5);
 console.log(5 !== "5");
 
+//Operadores Lógicos
 
+var p, q;
+
+console.table("And - &&")
+console.table(`p  q  p & q`);
+
+p = 1, q = 1;
+console.table(`${p}  ${q}    ${p & q}` );
+
+q = 0;
+console.log(`${p}  ${q}    ${p & q}` );
+
+p = 0, q = 1;
+console.log(`${p}  ${q}    ${p & q}` );
+
+q = 0;
+console.log(`${p}  ${q}    ${p & q}` );
+
+console.log("");
+
+
+console.log("Or - ||")
+
+console.log(`p  q  p || q`);
+
+p = 1, q = 1;
+console.log(`${p}  ${q}    ${p || q}` );
+
+q = 0;
+console.log(`${p}  ${q}    ${p || q}` );
+
+p = 0, q = 1;
+console.table(`${p}  ${q}    ${p || q}` );
+
+q = 0;
+console.log(`${p}  ${q}    ${p || q}` );
+
+console.log("");
+
+console.log("Not - !");
+p = true;
+console.log(`p      !p`)
+console.log(`${p}  ${!p}`);
