@@ -12,3 +12,16 @@ console.log(typeof carro);
 console.log(carro.nome);
 
 console.log(carro['nome']);
+
+const pessoa = {
+  nome: 'John',
+  sobrenome: 'Doe',
+  idade: 50,
+  apresentar: function() {
+    return this.nome + ' ' + this.sobrenome;
+  }
+};
+
+pessoa.apresentar();
+
+console.log(pessoa.apresentar());
